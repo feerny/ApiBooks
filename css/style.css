@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+*{
+    margin: 0%;
+
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Blaka', cursive;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Blaka Hollow', cursive;
+    font-size: 100px;
+}
+
+.center{
+    text-align: center;
+}
+button{
+    margin: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: all .5s ease;
+    cursor: pointer;
+    font-family: 'Blaka', cursive;
+}
+
+button:hover{
+    margin: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 31px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.cart{
+    transition: all .9s ease;
+    border: 5px black solid;
+    width: 13rem;
+    height: 16.5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 2rem;
+}
+
+.cart h2{
+    font-size: 40px;
+}
+
+.cart p{
+    font-size: 30px;
+}
+
+.cart:hover{
+    transition: all .9s ease;
+    border: 5px black solid;
+    width: 13rem;
+    background-color: rgb(146, 146, 146);
+    height: 16.5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: black 10px 10px 5px;
+}
+
+section{
+    padding: 1rem;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
