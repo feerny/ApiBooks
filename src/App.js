@@ -27,6 +27,7 @@ function getCharacter(book){
     const tittl = document.createElement('h2');
     const autor = document.createElement('p');
     const link = document.createElement('a');
+    const year = document.createElement('p');
     const btnLink = document.createElement('button');
 
 
@@ -34,12 +35,14 @@ function getCharacter(book){
     autor.textContent=book.author;
     btnLink.textContent="More";
     link.setAttribute('href',book.wiki_url);
+    year.textContent="Year: "+book.year;
     link.setAttribute('target',"_blank");
     link.appendChild(btnLink);
     cart.setAttribute('class',"cart");
 
     cart.appendChild(tittl);
     cart.appendChild(autor);
+    cart.appendChild(year);
     cart.appendChild(link);
 
 
